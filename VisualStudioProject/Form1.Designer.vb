@@ -29,6 +29,7 @@ Partial Class Form1
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -41,7 +42,6 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Panel7 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -55,10 +55,10 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(323, 311)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button1.Location = New System.Drawing.Point(218, 311)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(135, 33)
+        Me.Button1.Size = New System.Drawing.Size(240, 33)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "&Guardar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -68,7 +68,7 @@ Partial Class Form1
         Me.Label1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.ForeColor = System.Drawing.Color.Yellow
         Me.Label1.Location = New System.Drawing.Point(0, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Padding = New System.Windows.Forms.Padding(40, 0, 0, 0)
@@ -124,6 +124,13 @@ Partial Class Form1
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(240, 34)
         Me.Panel3.TabIndex = 2
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(6, 6)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(225, 20)
+        Me.DateTimePicker1.TabIndex = 0
         '
         'Panel4
         '
@@ -244,13 +251,6 @@ Partial Class Form1
         Me.TextBox6.Size = New System.Drawing.Size(225, 19)
         Me.TextBox6.TabIndex = 0
         '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(6, 6)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(225, 20)
-        Me.DateTimePicker1.TabIndex = 0
-        '
         'Panel7
         '
         Me.Panel7.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -280,7 +280,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(696, 469)
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.Text = "Empleados"
         Me.Panel1.ResumeLayout(False)
