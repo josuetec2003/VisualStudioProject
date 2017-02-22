@@ -55,10 +55,10 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(218, 311)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button1.Location = New System.Drawing.Point(436, 598)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(240, 33)
+        Me.Button1.Size = New System.Drawing.Size(480, 63)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "&Guardar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -70,9 +70,10 @@ Partial Class Form1
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 17.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Yellow
         Me.Label1.Location = New System.Drawing.Point(0, 0)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Padding = New System.Windows.Forms.Padding(40, 0, 0, 0)
-        Me.Label1.Size = New System.Drawing.Size(696, 61)
+        Me.Label1.Padding = New System.Windows.Forms.Padding(80, 0, 0, 0)
+        Me.Label1.Size = New System.Drawing.Size(1392, 117)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Registro de nuevo empleado"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -82,9 +83,10 @@ Partial Class Form1
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.Color.Gray
-        Me.TextBox1.Location = New System.Drawing.Point(6, 7)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 13)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(225, 19)
+        Me.TextBox1.Size = New System.Drawing.Size(450, 37)
         Me.TextBox1.TabIndex = 0
         '
         'Panel1
@@ -92,9 +94,10 @@ Partial Class Form1
         Me.Panel1.BackColor = System.Drawing.Color.White
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.TextBox1)
-        Me.Panel1.Location = New System.Drawing.Point(218, 26)
+        Me.Panel1.Location = New System.Drawing.Point(436, 50)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(240, 34)
+        Me.Panel1.Size = New System.Drawing.Size(478, 64)
         Me.Panel1.TabIndex = 0
         '
         'Panel2
@@ -102,9 +105,10 @@ Partial Class Form1
         Me.Panel2.BackColor = System.Drawing.Color.White
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Location = New System.Drawing.Point(218, 66)
+        Me.Panel2.Location = New System.Drawing.Point(436, 127)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(240, 34)
+        Me.Panel2.Size = New System.Drawing.Size(478, 64)
         Me.Panel2.TabIndex = 1
         '
         'TextBox2
@@ -112,9 +116,10 @@ Partial Class Form1
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.ForeColor = System.Drawing.Color.Gray
-        Me.TextBox2.Location = New System.Drawing.Point(6, 7)
+        Me.TextBox2.Location = New System.Drawing.Point(12, 13)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(225, 19)
+        Me.TextBox2.Size = New System.Drawing.Size(450, 37)
         Me.TextBox2.TabIndex = 0
         '
         'Panel3
@@ -122,16 +127,18 @@ Partial Class Form1
         Me.Panel3.BackColor = System.Drawing.Color.White
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel3.Controls.Add(Me.DateTimePicker1)
-        Me.Panel3.Location = New System.Drawing.Point(218, 106)
+        Me.Panel3.Location = New System.Drawing.Point(436, 204)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(240, 34)
+        Me.Panel3.Size = New System.Drawing.Size(478, 64)
         Me.Panel3.TabIndex = 2
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(6, 6)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(12, 12)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(225, 20)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(446, 31)
         Me.DateTimePicker1.TabIndex = 0
         '
         'Panel4
@@ -139,9 +146,10 @@ Partial Class Form1
         Me.Panel4.BackColor = System.Drawing.Color.White
         Me.Panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel4.Controls.Add(Me.TextBox4)
-        Me.Panel4.Location = New System.Drawing.Point(218, 146)
+        Me.Panel4.Location = New System.Drawing.Point(436, 281)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(240, 69)
+        Me.Panel4.Size = New System.Drawing.Size(478, 131)
         Me.Panel4.TabIndex = 3
         '
         'TextBox4
@@ -149,60 +157,66 @@ Partial Class Form1
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.ForeColor = System.Drawing.Color.Gray
-        Me.TextBox4.Location = New System.Drawing.Point(6, 9)
+        Me.TextBox4.Location = New System.Drawing.Point(12, 17)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(225, 49)
+        Me.TextBox4.Size = New System.Drawing.Size(450, 94)
         Me.TextBox4.TabIndex = 0
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(128, 34)
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(256, 65)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(65, 20)
+        Me.Label2.Size = New System.Drawing.Size(138, 45)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Nombre"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(120, 74)
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(240, 141)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(73, 20)
+        Me.Label3.Size = New System.Drawing.Size(153, 45)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Apellidos"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(25, 114)
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(60, 217)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(168, 20)
+        Me.Label4.Size = New System.Drawing.Size(333, 45)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "Fecha de contratación"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(32, 154)
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(64, 296)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(161, 20)
+        Me.Label5.Size = New System.Drawing.Size(339, 45)
         Me.Label5.TabIndex = 7
         Me.Label5.Text = "Dirección de domicilio"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Label6.Location = New System.Drawing.Point(83, 229)
+        Me.Label6.Location = New System.Drawing.Point(166, 440)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(110, 20)
+        Me.Label6.Size = New System.Drawing.Size(229, 45)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "Teléfono móvil"
         '
@@ -211,9 +225,10 @@ Partial Class Form1
         Me.Panel5.BackColor = System.Drawing.Color.White
         Me.Panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel5.Controls.Add(Me.TextBox5)
-        Me.Panel5.Location = New System.Drawing.Point(218, 221)
+        Me.Panel5.Location = New System.Drawing.Point(436, 425)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(240, 34)
+        Me.Panel5.Size = New System.Drawing.Size(478, 64)
         Me.Panel5.TabIndex = 4
         '
         'TextBox5
@@ -221,18 +236,20 @@ Partial Class Form1
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox5.ForeColor = System.Drawing.Color.Gray
-        Me.TextBox5.Location = New System.Drawing.Point(6, 7)
+        Me.TextBox5.Location = New System.Drawing.Point(12, 13)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(225, 19)
+        Me.TextBox5.Size = New System.Drawing.Size(450, 37)
         Me.TextBox5.TabIndex = 0
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(92, 269)
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(192, 516)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(101, 20)
+        Me.Label7.Size = New System.Drawing.Size(201, 45)
         Me.Label7.TabIndex = 11
         Me.Label7.Text = "Salario Bruto"
         '
@@ -241,9 +258,10 @@ Partial Class Form1
         Me.Panel6.BackColor = System.Drawing.Color.White
         Me.Panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel6.Controls.Add(Me.TextBox6)
-        Me.Panel6.Location = New System.Drawing.Point(218, 261)
+        Me.Panel6.Location = New System.Drawing.Point(436, 502)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(240, 34)
+        Me.Panel6.Size = New System.Drawing.Size(478, 64)
         Me.Panel6.TabIndex = 5
         '
         'TextBox6
@@ -251,9 +269,10 @@ Partial Class Form1
         Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.ForeColor = System.Drawing.Color.Gray
-        Me.TextBox6.Location = New System.Drawing.Point(6, 7)
+        Me.TextBox6.Location = New System.Drawing.Point(12, 13)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(225, 19)
+        Me.TextBox6.Size = New System.Drawing.Size(450, 37)
         Me.TextBox6.TabIndex = 0
         '
         'Panel7
@@ -273,24 +292,25 @@ Partial Class Form1
         Me.Panel7.Controls.Add(Me.Label5)
         Me.Panel7.Controls.Add(Me.Label3)
         Me.Panel7.Controls.Add(Me.Label4)
-        Me.Panel7.Location = New System.Drawing.Point(106, 85)
+        Me.Panel7.Location = New System.Drawing.Point(212, 163)
+        Me.Panel7.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(484, 357)
+        Me.Panel7.Size = New System.Drawing.Size(968, 687)
         Me.Panel7.TabIndex = 1
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-        Me.ClientSize = New System.Drawing.Size(696, 469)
+        Me.ClientSize = New System.Drawing.Size(1392, 902)
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.Text = "Empleados"
+        Me.Text = "Registro de empleados"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
